@@ -1,13 +1,7 @@
-from playsound import playsound
-import time
+import random
 
-def alarm(seconds):
-    left_time=0
-    while left_time<seconds:
-        print(f"{left_time}:{seconds}")
-        left_time = left_time +1
+coin = random.choice(["Head","Tail"])
 
+number = random.randint(2,10)
 
-
-seconds = int(input("Enter the during time : "))
-alarm(seconds)
+print(number)
