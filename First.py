@@ -1,7 +1,7 @@
-import random
-
-coin = random.choice(["Head","Tail"])
-
-number = random.randint(2,10)
-
-print(number)
+n = 6
+b=0
+for i in range(n,0,-1):
+    b+=1
+    for j in range(1,i+1):
+        print(b,end='')
+    print()
